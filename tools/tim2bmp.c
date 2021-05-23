@@ -54,7 +54,7 @@ void rgbpsx_to_rgb24(unsigned short psx_c, unsigned char *r,
 int write_bitmap_headers(FILE *f, int w, int h, int bpp)
 {
 	int x;
-	int r;
+	int r = 0;
 	int ret;
 	
 	if(bpp == 16)

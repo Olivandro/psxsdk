@@ -162,7 +162,8 @@ PS_BITMAP *ps_load_bitmap(char *filename, PS_RGB *palette)
 //	unsigned int bcompr;
 	unsigned char *bdata;
 	PS_BITMAP *bm;
-	int x, y, z, i, l;
+	int x, y, z, i;
+	int l = 0;
 	
 	bf = fopen(filename, "rb");
 	

@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
 
   for(i=0;i<8;i++)
     fscanf(exe, "%c", &data[i]);
-  data[8]=0;
+  data[7]=0;
 
   if (strncmp((char*)data, "PS-X EXE", 8))
     {

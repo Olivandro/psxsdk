@@ -47,7 +47,7 @@ int main( int argc, char *argv[] )
     
     if(vag == NULL)
     {
-    	printf("Can't open %s. Aborting.\n", argv[1]);
+    	printf("Cant open %s. Aborting.\n", argv[1]);
 	return -1;
     }
     
@@ -97,7 +97,7 @@ int main( int argc, char *argv[] )
     pcm = fopen( argv[2], "wb" );
     
     if ( pcm == NULL ) {
-        printf( "can´t write output file\n" );
+        printf( "cant write output file\n" );
         return( -8 );
     }
 

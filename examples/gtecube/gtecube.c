@@ -92,6 +92,7 @@ unsigned int prim_list[OT_LEN];
 int current_buf = 0;
 volatile int vblank_happened = 0;
 
+// GsPoly4 is part of psxgpu.h 
 GsPoly4 poly[CUBE_FACES];					/* Flat shaded quad primitive */
 
 static void program_vblank_handler(void) {

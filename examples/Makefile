@@ -11,6 +11,7 @@ all:
 	$(MAKE_COMMAND) -C psxs3m
 	$(MAKE_COMMAND) -C gtecube
 	
+	
 clean: 
 	$(MAKE_COMMAND) -C mandel clean
 	$(MAKE_COMMAND) -C memview clean
@@ -21,5 +22,7 @@ clean:
 	$(MAKE_COMMAND) -C rottest clean
 	$(MAKE_COMMAND) -C psxs3m clean
 	$(MAKE_COMMAND) -C gtecube clean
+
+	
 
 distclean: clean

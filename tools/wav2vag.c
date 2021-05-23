@@ -72,7 +72,7 @@ int main( int argc, char *argv[] )
     fp = fopen(argv[1], "rb");
     if (fp == NULL)
     {
-        printf("Can´t open %s. Aborting.\n", argv[1]);
+        printf("Cant open %s. Aborting.\n", argv[1]);
         return -2;
     }
     
